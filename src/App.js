@@ -3,21 +3,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">MISTERY TALES</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="collapseNavbar">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+              </li>
+              <li className="nav-item custom-range">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+              </li>
+              <li className="nav-item custom-range">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 }
