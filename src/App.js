@@ -53,6 +53,7 @@ function App() {
     <div style={backgroundStyle}>
       <div style={blurLayerStyle}></div>
 
+      {/* =====UNUSED=====
       <Nav  className="justify-content-center navbar sticky-top">
         <Nav.Item>
           <Nav.Link eventKey="link-1" className="glow text-white" onClick={() => setActiveTab('stories')}>Historias</Nav.Link>
@@ -63,31 +64,31 @@ function App() {
         <Nav.Item>
           <Nav.Link eventKey="link-2" className="glow text-white" onClick={() => setActiveTab('characters')}>Personajes</Nav.Link>
         </Nav.Item>
-      </Nav>
+      </Nav>*/}
       
-      {/* =====DEPRECATED=====
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top justify-content-end">
         <div className="container-fluid">
-          <a className="navbar-brand glow" href="#">MYSTERY-TALES</a>
+          <a className="navbar-brand glow" href="#"><h3>MYSTERY-TALES</h3></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="collapseNavbar">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 glow text-center">
+            <ul className="navbar-nav ms-2 glow">
               <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
                 <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
-                  Historias
+                  <h4>Historias</h4>
                 </button>
               </li>
               <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
                 <button className="nav-link glow" onClick={() => setActiveTab('characters')}>
-                  Personajes
+                <h4>Personajes</h4>
                 </button>
               </li>
             </ul>
           </div>
         </div>
-      </nav>*/}
+      </nav>
 
       <div className="container">
         <div className="container mt-4">
