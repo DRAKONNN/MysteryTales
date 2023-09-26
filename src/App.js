@@ -67,14 +67,14 @@ function App() {
       </Nav>*/}
       
       
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark sticky-top justify-content-end">
+      <nav className="navbar navbar-expand-md bg-dark navbar-dark sticky-top mt-0">
         <div className="container-fluid">
           <a className="navbar-brand glow" href="#"><h3>MYSTERY-TALES</h3></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="collapseNavbar">
-            <ul className="navbar-nav ms-2 glow">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2 glow">
               <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
                 <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
                   <h4>Historias</h4>
@@ -90,10 +90,8 @@ function App() {
         </div>
       </nav>
 
-      <div className="container">
-        <div className="container mt-4">
-          {renderContent()}
-        </div>
+      <div className="container mt-4">
+        {renderContent()}
       </div>
     </div>
   );
