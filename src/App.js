@@ -13,6 +13,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
+import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import Stories from './components/stories';
 import Characters from './components/characters';
@@ -49,6 +51,26 @@ function App() {
       return <Characters />;
     }
   };
+
+  const lightNavbarTheme = {
+    backgroundColor: '#ffffff',
+    textColor: '#000000',
+    // Otros estilos para el modo claro del Navbar
+  };
+
+  const NavbarContainer = styled.nav`
+  background-color: ${(props) => props.theme.backgroundColor};
+  color: ${(props) => props.theme.textColor};
+  `;
+
+const Navbar = () => {
+    return (
+      <NavbarContainer>
+        {/* Contenido del Navbar, como elementos de navegación */}
+      </NavbarContainer>
+    );
+  };
+
   return (
     <div style={backgroundStyle}>
       <div style={blurLayerStyle}></div>
@@ -66,7 +88,7 @@ function App() {
         </Nav.Item>
       </Nav>*/}
       
-      
+      <ThemeProvider theme={lightNavbarTheme}>
       <nav className="navbar navbar-expand-md bg-dark navbar-dark sticky-top mt-0">
         <div className="container-fluid">
           <a className="navbar-brand glow" href="#"><h3>MYSTERY-TALES</h3></a>
@@ -89,6 +111,8 @@ function App() {
           </div>
         </div>
       </nav>
+      <Navbar />
+      </ThemeProvider>
 
       <div className="container mt-4">
         {renderContent()}

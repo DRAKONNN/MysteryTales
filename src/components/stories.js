@@ -11,7 +11,7 @@ function Stories() {
   return (
     <div className="resume-section-content">
       <h1 className="">Historias</h1>
-      <div class="row gy-5">
+      <div className="row gy-5">
         <div className="col-lg-4">
           
         </div>
