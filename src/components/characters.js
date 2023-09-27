@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
@@ -7,14 +8,48 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
-function Characters() {
+import characters from '../data/datacharacters';
+
+const CHARACTERS = characters;
+
+function Character(props) {
+  const {character} = props
+  return (
+    <div className="col-lg-3">
+      <div className="card bg-dark text-white hover-zoom-interest">
+        <div className="card-img-wrapper">
+          <img src={character.image} className="card-img zoom-effect" alt={character.title} />
+        </div>
+        <div className="card-img-overlay d-flex justify-content-center align-items-center">
+          <h3 className="card-title">{character.title}</h3>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function CharacterList(props) {
+  const {characters} = props
+
+  return (
+    <>
+      {characters.map(character => (
+        <Character character={character} />
+      ))}
+    </>
+  )
+}
+
+function Characters(props) {
+  const [state, setState] = useState({
+    characters: CHARACTERS,
+  })
+  
   return (
     <div className="resume-section-content">
       <h1 className="">Personajes</h1>
-      <div id="row-stories" class="row">
-        <div className="col-lg-4">
-          
-        </div>
+      <div className="row gy-5">
+        <CharacterList characters={state.characters} />
       </div>
     </div>
   );
