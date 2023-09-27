@@ -20,8 +20,8 @@ function Character(props) {
         <div className="card-img-wrapper">
           <img src={character.image} className="card-img zoom-effect" alt={character.title} />
         </div>
-        <div className="card-img-overlay d-flex justify-content-center align-items-center">
-          <h3 className="card-title">{character.title}</h3>
+        <div class="card-body">
+          <h5>{character.name}</h5>
         </div>
       </div>
     </div>
