@@ -74,9 +74,21 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   text-shadow:1px 1px 8px #f2ffb6, 1px 1px 16px #e6ff76;
 }
 
+@media (prefers-color-scheme: dark) {
+  .glow {
+    color: #000;
+    text-shadow: 1px 1px 8px #333, 1px 1px 10px #555;
+  }
+
+  .glow:hover {
+    color: #000;
+    text-shadow: 1px 1px 8px #333, 1px 1px 16px #555; /* Cambia el sombreado en modo oscuro al pasar el cursor por encima */
+  }
+}
+
 /*
-  * Dummy devices (replace them with your own or something else entirely!)
-  */
+* Dummy devices (replace them with your own or something else entirely!)
+*/
 
   .product-device {
     position: absolute;
@@ -108,9 +120,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     background-color: #e5e5e5;
   }
 
-  /*
-  * Extra utilities
-  */
+/*
+* Extra utilities
+*/
   .flex-equal > * {
     flex: 1;
   }
