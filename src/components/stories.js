@@ -48,7 +48,7 @@ function Stories(props) {
   return (
     <div className="resume-section-content">
       <h4 className="">Historias</h4>
-      <div className="row gy-5">
+      <div className="row mb-5 gy-5">
         <StoryList stories={state.stories} />
       </div>
     </div>
