@@ -47,7 +47,7 @@ function Characters(props) {
   
   return (
     <div className="resume-section-content">
-      <h1 className="">Personajes</h1>
+      <h4 className="">Personajes</h4>
       <div className="row gy-5">
         <CharacterList characters={state.characters} />
       </div>
