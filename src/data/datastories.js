@@ -1,9 +1,11 @@
 export default [{
   id: 'mansionsecret01', 
-  title: "Mansion secret",
-  image: '/images/DurakAI.png',
+  title: "Asesinato en una Mansión",
+  image: '/images/stories/LockedRoom.png',
+  classAttText: 'text-warning',
 }, {
   id: 'nautilus02', 
-  title: "Encerrados en el Nautilus",
-  image: '/images/MentirosoAI.png',
+  title: "Sin escapatoria en el Nautilus",
+  image: '/images/stories/Nautilus.png',
+  classAttText: 'text-white',
 }];

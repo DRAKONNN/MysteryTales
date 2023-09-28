@@ -66,6 +66,15 @@ a:link {
 }
 
 /*
+* ===== Cards =====
+*/
+@media (max-width: 992px) {
+  .title-story {
+    font-size: xx-large;
+  }
+}
+
+/*
 * ===== Glowing =====
 */
 .glow {

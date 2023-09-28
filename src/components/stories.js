@@ -21,7 +21,7 @@ function Story(props) {
           <img src={story.image} className="card-img zoom-effect" alt={story.title} />
         </div>
         <div className="card-img-overlay d-flex justify-content-center align-items-center">
-          <h3 className="card-title">{story.title}</h3>
+          <h3 className={`card-title title-story text-center ${story.classAttText}`}>{story.title}</h3>
         </div>
       </div>
     </div>
