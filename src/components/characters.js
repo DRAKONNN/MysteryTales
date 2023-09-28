@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
@@ -14,8 +15,14 @@ const CHARACTERS = characters;
 
 function Character(props) {
   const {character} = props
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div className="col-lg-3">
+      <a href='#lost' onClick={handleShow}>
       <div className="card bg-dark text-white hover-zoom-interest">
         <div className="card-img-wrapper">
           <img src={character.image} className="card-img zoom-effect" alt={character.title} />
@@ -24,6 +31,22 @@ function Character(props) {
           <h5>{character.name}</h5>
         </div>
       </div>
+      </a>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header className='bg-dark' closeButton>
+          <Modal.Title>{character.name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className='bg-dark text-white'>Datos desconocidos</Modal.Body>
+        <Modal.Footer className='bg-dark'>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   )
 }

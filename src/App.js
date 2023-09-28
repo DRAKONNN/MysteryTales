@@ -117,7 +117,11 @@ const Navbar = () => {
       <div className="container mt-4">
         {renderContent()}
       </div>
-    </div>
+      {/*<a data-toggle="modal" href="#myModal" className="btn btn-primary">Launch modal</a>*/}
+
+      
+      
+      </div>
   );
 }
 
