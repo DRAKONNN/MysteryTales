@@ -40,10 +40,7 @@ function Character(props) {
         <Modal.Body className='bg-dark text-white'>Datos desconocidos</Modal.Body>
         <Modal.Footer className='bg-dark'>
           <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+            Cerrar
           </Button>
         </Modal.Footer>
       </Modal>
