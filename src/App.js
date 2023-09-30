@@ -118,12 +118,22 @@ const Navbar = () => {
         {renderContent()}
       </div>
 
-      <footer className="bg-dark text-center text-white">
-        <div className="text-center p-3 mb-0" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
-          © 2020 Copyright:
-          <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <footer className="container py-5">
+      <div className="row">
+        <div className="col-6 col-md">
+          <small className="d-block mb-3 text-muted">&copy; 2023 Copyright:</small>
         </div>
-      </footer>
+        <div className="col-6 col-md">
+          <a className="text-muted" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <div className="col-6 col-md">
+          <a className="text-muted" href="https://react-bootstrap.netlify.app/">React-Bootstrap</a>
+        </div>
+        <div className="col-6 col-md">
+          <a className="text-muted" href="https://github.com/DRAKONNN/MysteryTales">GitHub</a>
+        </div>
+      </div>
+    </footer>
 
       {/*<a data-toggle="modal" href="#myModal" className="btn btn-primary">Launch modal</a>*/}
     </div>
