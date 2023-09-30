@@ -38,4 +38,9 @@ export default [{
   name: "Magnus",
   image: '/images/characters/Magnus.png',
   idStory: 'nautilus02',
+}, {
+  id: 'c09', 
+  name: "Nia",
+  image: '/images/characters/Nia.png',
+  idStory: 'camplake03',
 }];

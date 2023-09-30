@@ -55,11 +55,11 @@ function CharacterList(props) {
   const {characters} = props
   
   return (
-    <>
+    <div className="row gy-5 mb-5">
       {characters.map(character => (
         <Character character={character} />
       ))}
-    </>
+    </div>
   )
 }
 
@@ -67,10 +67,10 @@ function StoryCharacters({ stories, characters }) {
   return (
     <div>
         {stories.map(story => (
-          <div className="row gy-5 mb-4">
-            <h4 className={story.classAttText}>{story.title}</h4>
+          <>
+            <h4 className={`mb-4 ${story.classAttText}`}>{story.title}</h4>
             <CharacterList characters={characters.filter(character => character.idStory === story.id)} />
-          </div>
+          </>
         ))}
     </div>
   );

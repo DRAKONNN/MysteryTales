@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 function Footer(props) {
   return (
     <>
-      <footer className="container py-5 mt-5">
+      <footer className="container py-5 mt-5 footer-bottom">
         <div className="row">
           <div className="col-6 col-md">
             <small className="d-block mb-3 text-muted">&copy; 2023 Copyright:</small>

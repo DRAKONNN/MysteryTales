@@ -65,6 +65,10 @@ a:link {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232126', endColorstr='#463463', GradientType=1 );
 }
 
+.container-render {
+  min-height: 10em;
+}
+
 /*
 * ===== Cards =====
 */
@@ -110,6 +114,10 @@ a:link {
 .hover-zoom-interest:hover {
   transform: scale(1.05);
 }
+
+/*
+* =====Footer=====
+*/
 
 /*
 * Dummy devices (replace them with your own or something else entirely!)

@@ -114,10 +114,10 @@ const Navbar = () => {
         <Navbar />
       </ThemeProvider>
 
-      <div className="container mt-4">
+      <div className="container mt-4 container-render">
         {renderContent()}
       </div>
-
+      
       {/*<a data-toggle="modal" href="#myModal" className="btn btn-primary">Launch modal</a>*/}
     </div>
   );
