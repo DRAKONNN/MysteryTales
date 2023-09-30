@@ -10,6 +10,7 @@ import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
 import characters from '../data/datacharacters';
+import Footer from '../components/footer';
 
 const CHARACTERS = characters;
 
@@ -71,6 +72,7 @@ function Characters(props) {
       <div className="row gy-5">
         <CharacterList characters={state.characters} />
       </div>
+      <Footer />
     </div>
   );
 }

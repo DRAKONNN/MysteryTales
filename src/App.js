@@ -89,51 +89,34 @@ const Navbar = () => {
       </Nav>*/}
       
       <ThemeProvider theme={lightNavbarTheme}>
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark sticky-top mt-0">
-        <div className="container-fluid">
-          <a className="navbar-brand glow" href="#"><h3>MYSTERY-TALES</h3></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="collapseNavbar">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2 glow">
-              <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
-                <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
-                  <h4>Historias</h4>
-                </button>
-              </li>
-              <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
-                <button className="nav-link glow" onClick={() => setActiveTab('characters')}>
-                <h4>Personajes</h4>
-                </button>
-              </li>
-            </ul>
+        <nav className="navbar navbar-expand-md bg-dark navbar-dark sticky-top mt-0">
+          <div className="container-fluid">
+            <a className="navbar-brand glow" href="#"><h3>MYSTERY-TALES</h3></a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="collapseNavbar">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2 glow">
+                <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
+                  <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
+                    <h4>Historias</h4>
+                  </button>
+                </li>
+                <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
+                  <button className="nav-link glow" onClick={() => setActiveTab('characters')}>
+                  <h4>Personajes</h4>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <Navbar />
+        </nav>
+        <Navbar />
       </ThemeProvider>
 
       <div className="container mt-4">
         {renderContent()}
       </div>
-
-      <footer className="container py-5">
-      <div className="row">
-        <div className="col-6 col-md">
-          <small className="d-block mb-3 text-muted">&copy; 2023 Copyright:</small>
-        </div>
-        <div className="col-6 col-md">
-          <a className="text-muted" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <div className="col-6 col-md">
-          <a className="text-muted" href="https://react-bootstrap.netlify.app/">React-Bootstrap</a>
-        </div>
-        <div className="col-6 col-md">
-          <a className="text-muted" href="https://github.com/DRAKONNN/MysteryTales">GitHub</a>
-        </div>
-      </div>
-    </footer>
 
       {/*<a data-toggle="modal" href="#myModal" className="btn btn-primary">Launch modal</a>*/}
     </div>

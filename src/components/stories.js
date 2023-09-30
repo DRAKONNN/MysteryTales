@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
 import stories from '../data/datastories';
+import Footer from '../components/footer';
 
 const STORIES = stories;
 
@@ -51,6 +52,7 @@ function Stories(props) {
       <div className="row mb-5 gy-5">
         <StoryList stories={state.stories} />
       </div>
+      <Footer />
     </div>
   );
 }
