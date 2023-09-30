@@ -10,7 +10,7 @@ export default [{
   classAttText: 'text-white',
 }, {
   id: 'camplake03', 
-  title: "Misterio en el Camp Lake",
+  title: "Matanza en el Camp Lake",
   image: '/images/stories/CampLake.png',
   classAttText: 'text-danger',
 }];

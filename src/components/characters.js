@@ -10,9 +10,11 @@ import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
 import characters from '../data/datacharacters';
+import stories from '../data/datastories';
 import Footer from '../components/footer';
 
 const CHARACTERS = characters;
+const STORIES = stories;
 
 function Character(props) {
   const {character} = props
@@ -51,7 +53,7 @@ function Character(props) {
 
 function CharacterList(props) {
   const {characters} = props
-
+  
   return (
     <>
       {characters.map(character => (
@@ -61,16 +63,29 @@ function CharacterList(props) {
   )
 }
 
+function StoryCharacters({ stories, characters }) {
+  return (
+    <div>
+        {stories.map(story => (
+          <div className="row gy-5 mb-4">
+            <h4 className={story.classAttText}>{story.title}</h4>
+            <CharacterList characters={characters.filter(character => character.idStory === story.id)} />
+          </div>
+        ))}
+    </div>
+  );
+}
+
 function Characters(props) {
   const [state, setState] = useState({
     characters: CHARACTERS,
+    stories: STORIES,
   })
   
   return (
     <div className="resume-section-content">
-      <h4 className="">Personajes</h4>
-      <div className="row gy-5">
-        <CharacterList characters={state.characters} />
+      <div>
+        <StoryCharacters stories={state.stories} characters={state.characters} />
       </div>
       <Footer />
     </div>
