@@ -21,8 +21,6 @@ function Character(props) {
 
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <div className="col-lg-3">
       <a href='#lost' onClick={handleShow}>
