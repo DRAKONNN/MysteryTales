@@ -49,7 +49,11 @@ function Character(props) {
             <div className="col-6 square-image-container">
               <img src={character.imageSquare} className="card-img zoom-effect" alt={character.title} />
             </div>
-            <div className="col-6">Datos desconocidos</div>
+            <div className="col-6">
+              <p><i class='fas fa-birthday-cake'></i> Edad: {character.age}</p>
+              <p><i class='fas fa-globe-africa'></i> Nacionalidad: {character.nationality}</p>
+              <p><i class='fas fa-poll-h'></i> Descripción: {character.description}</p>
+            </div>
           </div>
         </Modal.Body>
         <Modal.Footer className="bg-dark">
