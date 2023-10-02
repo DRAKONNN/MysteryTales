@@ -9,6 +9,9 @@ import Modal from 'react-bootstrap/Modal';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
+import ReactCrop from 'react-image-crop';
+import 'react-image-crop/dist/ReactCrop.css';
+
 import characters from '../data/datacharacters';
 import stories from '../data/datastories';
 import Footer from '../components/footer';
@@ -21,32 +24,42 @@ function Character(props) {
 
   const [show, setShow] = useState(false);
 
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className="col-lg-3">
-      <a href='#lost' onClick={handleShow}>
-      <div className="card bg-dark text-white hover-zoom-interest">
-        <div className="card-img-wrapper">
-          <img src={character.image} className="card-img zoom-effect" alt={character.title} />
+      <a href="#lost" onClick={handleShow}>
+        <div className="card bg-dark text-white hover-zoom-interest">
+          <div className="card-img-wrapper">
+            <img src={character.image} className="card-img zoom-effect" alt={character.title} />
+          </div>
+          <div className="card-body">
+            <h5>{character.name}</h5>
+          </div>
         </div>
-        <div class="card-body">
-          <h5>{character.name}</h5>
-        </div>
-      </div>
       </a>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header className='bg-dark' closeButton>
+        <Modal.Header className="bg-dark" closeButton>
           <Modal.Title>{character.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='bg-dark text-white'>Datos desconocidos</Modal.Body>
-        <Modal.Footer className='bg-dark'>
+        <Modal.Body className="bg-dark text-white">
+          <div className="row">
+            <div className="col-6 square-image-container">
+              <img src={character.imageSquare} className="card-img zoom-effect" alt={character.title} />
+            </div>
+            <div className="col-6">Datos desconocidos</div>
+          </div>
+        </Modal.Body>
+        <Modal.Footer className="bg-dark">
           <Button variant="secondary" onClick={handleClose}>
             Cerrar
           </Button>
         </Modal.Footer>
       </Modal>
     </div>
-  )
+  );
 }
 
 function CharacterList(props) {
