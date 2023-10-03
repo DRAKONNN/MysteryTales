@@ -18,6 +18,7 @@ import { ThemeProvider } from 'styled-components';
 
 import Stories from './components/stories';
 import Characters from './components/characters';
+import Puzzles from './components/puzzles';
 
 function App() {
   const backgroundStyle = {
@@ -49,6 +50,8 @@ function App() {
       return <Stories />;
     } else if (activeTab === 'characters') {
       return <Characters />;
+    } else if (activeTab === 'puzzles') {
+      return <Puzzles />;
     }
   };
 
@@ -99,12 +102,17 @@ const Navbar = () => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2 glow">
                 <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
                   <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
-                    <h4>Historias</h4>
+                    <h4><i class='fas fa-book'></i> Historias</h4>
                   </button>
                 </li>
                 <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
                   <button className="nav-link glow" onClick={() => setActiveTab('characters')}>
-                  <h4>Personajes</h4>
+                  <h4><i class='fas fa-users'></i> Personajes</h4>
+                  </button>
+                </li>
+                <li className={`nav-item ${activeTab === 'puzzles' ? 'active' : ''}`}>
+                  <button className="nav-link glow" onClick={() => setActiveTab('puzzles')}>
+                  <h4><i class='fas fa-brain'></i> Acertijos</h4>
                   </button>
                 </li>
               </ul>
