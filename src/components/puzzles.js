@@ -16,13 +16,17 @@ const PUZZLES = puzzles;
 function Puzzle(props) {
   const {puzzle} = props
   return (
-    <div className="col-lg-3">
-      <div className="card bg-dark text-white hover-zoom-interest">
-        <div className="card-img-wrapper">
-          <img src={puzzle.image} className="card-img zoom-effect" alt={puzzle.title} />
+    <div className="col-lg-4">
+        <div className={`card shadow-box bg-dark`}>
+        <div class="card-body text-white">
+          <h5 class="card-title text-warning">{puzzle.title}</h5>
+          <p class="card-text">{puzzle.description}</p>
+          <button type="button" class="btn btn-warning text-white">Leer</button>
         </div>
-        <div className="card-img-overlay d-flex justify-content-center align-items-center">
-          <h3 className={`card-title title-puzzle text-center ${puzzle.classAttText}`}>{puzzle.title}</h3>
+        <div className="img-zoom">
+          <a href={puzzle.url}>
+            <img src={puzzle.image} className="card-img-top" alt={puzzle.title}/>
+          </a>
         </div>
       </div>
     </div>
@@ -35,7 +39,7 @@ function PuzzleList(props) {
   return (
     <>
       {puzzles.map(puzzle => (
-        <puzzle puzzle={puzzle} />
+        <Puzzle puzzle={puzzle} />
       ))}
     </>
   )

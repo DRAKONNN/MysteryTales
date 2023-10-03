@@ -1,6 +1,7 @@
 export default [{
-  id: 'mansionsecret01', 
-  title: "Asesinato en una Mansión",
-  image: '/images/stories/LockedRoom.png',
-  classAttText: 'text-warning',
+  id: 'p01', 
+  title: "El acertijo de la bombilla",
+  description: 'Una bombilla y tres interruptores. ¿Qué interruptor enciende la bombilla?',
+  image: '/images/puzzles/Bombilla.jpg',
+  classAttText: 'text-white',
 }];
