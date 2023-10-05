@@ -30,9 +30,7 @@ function Puzzle(props) {
           <button type="button" class="btn btn-warning text-white" onClick={handleShow}>Leer</button>
         </div>
         <div className="img-zoom">
-          <a href={puzzle.url}>
-            <img src={puzzle.image} className="card-img-top" alt={puzzle.title}/>
-          </a>
+          <img src={puzzle.image} className="card-img-top" alt={puzzle.title}/>
         </div>
       </div>
 
@@ -41,12 +39,17 @@ function Puzzle(props) {
           <Modal.Title className='text-warning'>{puzzle.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-dark text-white">
+          <div>
+            <h4><span class="badge rounded-pill bg-warning text-dark"><i class='fas fa-user-secret'></i> Dificultad: {puzzle.difficulty}</span></h4>
+          </div>
           <p dangerouslySetInnerHTML={{ __html: puzzle.question }} />
-          <p>
-            <button class="btn btn-warning text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              Revelar la solución
-            </button>
-          </p>
+          <div className="row">
+            <div className="col-sm-4">
+              <button class="btn bg-warning text-dark mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <i class='fas fa-exclamation-triangle'></i> <b>Solución</b>
+              </button>
+            </div>
+          </div>
           <div class="collapse" id="collapseExample">
             <div class="card card-body bg-dark bg-gradient">
               <p dangerouslySetInnerHTML={{ __html: puzzle.solution }} />
