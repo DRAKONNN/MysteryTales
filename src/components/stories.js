@@ -29,19 +29,21 @@ function Story(props) {
   const book = findBookByStoryId(story.id);
 
   const handleClose = () => setShow(false);
-  const handleShow = (pageIndex) => {
+  const handleShow = () => {
     setCurrentPage(0);
     setShow(true);
   };
 
   const handleNextPage = () => {
     if (currentPage < book.pages.length - 1) {
+      console.log(book.pages.length);
       setCurrentPage(currentPage + 1);
     }
   };
 
   const handlePrevPage = () => {
     if (currentPage > 0) {
+      console.log(book.pages.length);
       setCurrentPage(currentPage - 1);
     }
   };
@@ -72,7 +74,7 @@ function Story(props) {
           <Button variant="secondary" onClick={handlePrevPage} disabled={currentPage === 0}>
             Anterior
           </Button>
-          <Button variant="secondary" onClick={handleNextPage} disabled={currentPage === BOOKS[0].pages.length - 1}>
+          <Button variant="secondary" onClick={handleNextPage} disabled={currentPage === book.pages.length - 1}>
             Siguiente
           </Button>
           <Button variant="secondary" onClick={handleClose}>
