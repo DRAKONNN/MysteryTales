@@ -51,17 +51,18 @@ function Story(props) {
   return (
     <div className="col-lg-3">
       <div className="card bg-dark text-white hover-zoom-interest" onClick={handleShow}>
-        <div className="card-img-wrapper">
-          <img src={story.image} className="card-img zoom-effect" alt={story.title} />
-        </div>
-        <div className="card-img-overlay d-flex justify-content-center align-items-center">
-          <h3 className={`card-title title-story text-center ${story.classAttText}`}>{story.title}</h3>
-        </div>
+      <div className="card-img-wrapper">
+        <img src={story.image} className="card-img zoom-effect" alt={story.title} />
       </div>
+      <div className="card-img-overlay d-flex flex-column justify-content-between">
+        <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '40%' }}>{story.title}</h2>
+        <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
+      </div>
+    </div>
       
       <Modal show={show} size="lg" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
         <Modal.Header className="bg-dark" closeButton>
-          <Modal.Title className='text-warning'>{story.title}</Modal.Title>
+          <Modal.Title className={`${story.classAttText}`}>{story.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-dark text-white">
           {book ? (

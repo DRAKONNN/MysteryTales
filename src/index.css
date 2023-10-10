@@ -79,6 +79,26 @@ a:link {
 }
 
 /*
+* ===== Horizontal rule =====
+*/
+.divider {
+	position: relative;
+  margin-bottom: 5px;
+	height: 1px;
+}
+
+.div-transparent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(255, 255, 255), transparent);
+}
+
+/*
 * ===== Glowing =====
 */
 .glow {
@@ -127,6 +147,13 @@ a:link {
 
 .img-zoom img:hover {
   transform: scale(1.2);
+}
+
+/*
+* =====Colors=====
+*/
+.text-vastago {
+  color: #b47d29;
 }
 
 /*
