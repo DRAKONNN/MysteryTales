@@ -66,7 +66,7 @@ function Story(props) {
         </Modal.Header>
         <Modal.Body className="bg-dark text-white">
           {book ? (
-            <p>{book.pages[currentPage]}</p>
+            <p dangerouslySetInnerHTML={{ __html: book.pages[currentPage] }} />
           ) : (
             <p>No se encontró contenido para esta historia.</p>
           )}
