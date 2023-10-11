@@ -282,5 +282,9 @@ export default [{
     `-Si –contestó con la voz cambiada-. Volvamos a Roma inmediatamente. Temo que
     usted se halle indispuesto.<br>` +
     `-Por favor –gritó el conde-. Volvamos a Roma, quiero acostarme.`,
+
+    `Regresaron en silencia. El conde, que había sido invitado a una fiesta, se acostó,
+    alegando que tenía fiebre. Al día siguiente había desaparecido el barón; alguien halló su
+    caballo atado al pino. ¿Fue este un asesinato?`,
   ]
 }];

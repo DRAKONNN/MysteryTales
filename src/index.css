@@ -78,6 +78,14 @@ a:link {
   }
 }
 
+.custom-modal-style {
+  min-width: 45% !important;
+}
+
+.modal-height {
+  height: 95%;
+}
+
 /*
 * ===== Horizontal rule =====
 */

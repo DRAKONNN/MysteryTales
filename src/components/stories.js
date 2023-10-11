@@ -47,7 +47,7 @@ function Story(props) {
       setCurrentPage(currentPage - 1);
     }
   };
-
+  
   return (
     <div className="col-lg-3">
       <div className="card bg-dark text-white hover-zoom-interest" onClick={handleShow}>
@@ -60,7 +60,7 @@ function Story(props) {
       </div>
     </div>
       
-      <Modal show={show} size="lg" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
+      <Modal show={show} dialogClassName="custom-modal-style" contentClassName="modal-height" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
         <Modal.Header className="bg-dark" closeButton>
           <Modal.Title className={`${story.classAttText}`}>{story.title}</Modal.Title>
         </Modal.Header>
