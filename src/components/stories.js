@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import Modal from 'react-bootstrap/Modal';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
@@ -36,14 +37,12 @@ function Story(props) {
 
   const handleNextPage = () => {
     if (currentPage < book.pages.length - 1) {
-      console.log(book.pages.length);
       setCurrentPage(currentPage + 1);
     }
   };
 
   const handlePrevPage = () => {
     if (currentPage > 0) {
-      console.log(book.pages.length);
       setCurrentPage(currentPage - 1);
     }
   };
@@ -62,16 +61,20 @@ function Story(props) {
       
       <Modal show={show} dialogClassName="custom-modal-style" contentClassName="modal-height" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
         <Modal.Header className="bg-dark" closeButton>
+        
           <Modal.Title className={`${story.classAttText}`}>{story.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-dark text-white">
           {book ? (
-            <p dangerouslySetInnerHTML={{ __html: book.pages[currentPage] }} />
+            <>
+              <p dangerouslySetInnerHTML={{ __html: book.pages[currentPage] }} />
+            </>
           ) : (
             <p>No se encontró contenido para esta historia.</p>
           )}
         </Modal.Body>
         <Modal.Footer className="bg-dark">
+          <ProgressBar variant="warning" now={currentPage} max={book.pages.length - 1} style={{width: '100%', position: 'relative'}} />
           <Button variant="secondary" onClick={handlePrevPage} disabled={currentPage === 0}>
             Anterior
           </Button>
