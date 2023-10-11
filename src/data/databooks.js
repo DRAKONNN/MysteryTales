@@ -205,7 +205,7 @@ export default [{
     mientras fregábamos el piso, porque se había inundado, junto con Buenos Aires, el aljibe
     del patio. Tardó aquello más que toda nuestra vida. ¡Pero aun lo que más tarda llega!
     Oímos la detonación. Fue un momento feliz para mí, al menos.`,
-    
+
     `Ahora, Ángel Arturo tomó posesión de esta casa y nuestra venganza tal vez no sea sino
     venganza de Labuelo. Nunca pude vivir con Leticia como marido y mujer. Ángel Arturo
     con su enorme cabeza pegada a la puerta cancel, asistió, victorioso, a nuestras desventuras
@@ -214,22 +214,73 @@ export default [{
 }, {
   id: 'elpino01',
   pages: [
-    `This is some placeholder3 content to show the scrolling behavior for modals. 
-    We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. 
-    When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.
-    This is some placeholder content to show the scrolling behavior for modals. 
-    We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. 
-    When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.`,
+    `Aborrecía el conde a cierto barón alemán, forastero en Roma. Las razones de este
+    aborrecimiento no importan; pero como tenía el firme propósito de vengarse, con un
+    mínimo de peligro, las mantuvo secretas aun del barón. En verdad, tal es la primera ley de
+    la venganza, ya que el odio revelado es odio impotente. El conde era curioso e inquisitivo;
+    tenía algo de artista; todo lo ejecutaba con una perfección exacta que se extendía no sólo a
+    los medios o instrumentos. Cabalgaba un día por las afueras y llegó a un camino borrado
+    que se perdía en los pentanos que circundaban a Roma. A la derecha había una antigua
+    tumba romana; a la izquierda, una casa abandonada entre un jardín de siemprevivas. Ese
+    camino lo condujo a un campo de ruinas, en cuyo centro, en el declive de una colina, vio
+    una puerta abierta y, no lejos, un solitario pino atrofiado, no mayor que un arbusto.`,
 
-    `This is some placeholder content to show the scrolling behavior for modals. 
-    We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. 
-    When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.`,
+    `El sitio era desierto y secreto; el conde presintió que algo favorable acechaba en la soledad; ató el
+    caballo al pino, encendió la luz con el yesquero y penetró en la colina. La puerta daba a un
+    corredor de construcción romana; este corredor, a unos veinte pasos, se bifurcaba. El conde
+    tomó por la derecha y llegó tanteando en la oscuridad a una especie de barrera, que iba de
+    un muro a otro. Adelantando el pie, encontró un borde de piedra pulida, y luego el vacío.
+    Interesado, juntó unas ramas secas y encendió un fuego. Frente a él había un profundísimo
+    pozo; sin duda algún labriego, que lo había usado para sacar agua, puso la barrera. El
+    conde se apoyó en la baranda y miró el pozo, largamente.`,
 
-    `This is some placeholder content to show the scrolling behavior for modals. 
-    We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. 
-    When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.
-    This is some placeholder content to show the scrolling behavior for modals. 
-    We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. 
-    When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.`,
+    `Era una obra romana y, como todas las de este pueblo, parecía construida para la eternidad. Sus paredes eran lisas y
+    verticales, el desdichado que cayera en el fondo no tendría salvación. Un impulso me trajo
+    a este lugar, pensaba el conde. ¿Con qué fin? ¿Qué he logrado? ¿Por qué he sido enviado
+    a mirar en este pozo? La baranda cedió, el conde estuvo a punto de caer. Saltó hacia atrás
+    para salvarse, y apagó con el pie las últimas brasas del fuego. ¿He sido enviado aquí para
+    morir?, dijo con temblor. Tuvo una inspiración.`,
+
+    `Se arrastró hasta el borde del pozo y levantó el brazo, tanteando; dos postes habías
+    sostenido la baranda; ahora, esta pendía de una de ellos. El conde la repuso de bodoque
+    cediera al primer apoyo. Salió a la luz del día, como un enfermo.<br>` +
+    `Al otro día, mientras paseaba con el barón, se mostró preocupado. Interrogado por el
+    barón, admitió finalmente que la había deprimido un extraño sueño. Quería interesar al
+    barón –hombre supersticioso que fingía desdeñarlas supersticiones- El conde, instado por
+    su amigo, le dijo bruscamente que se precaviera, porque había soñado con él. Por supuesto,
+    el barón no descansó hasta que le contaron el sueño`,
+
+    `-Presiento- dijo que conde con aparente desgano- que este relato será infausto; algo me
+    lo dice. Pero, si para ninguno de los dos puede haber paz hasta que usted lo oiga, cargue
+    usted con la culpa. Este era el sueño. Lo vi a usted cabalgando, no sé donde, pero debe de
+    haber sido cerca de Roma; de un lado había un, del otro un jardín de siemprevivas. Yo le
+    gritaba, le volvía a gritar que no prosiguiera, en una suerte de éxtasis de terror. Ignoro si
+    usted me oyó, porque siguió adelante. El sendero le llevó a un lugar desierto entre las
+    ruinas, donde había una puerta en una ladera y, cerca de la puerta, un pino deforme. Usted
+    se apeó (a pesar de mis súplicas), ató el caballo al pino, abrió la puerta y entró
+    resueltamente. Adentro estaba oscuro, pero en el sueño yo seguía viéndolo y rogándole que
+    volviera. Usted siguió el muro de la derecha, dobló otra vez por la derecha y llegó a una
+    cámara, en la que había un pozo y una baranda. Entonces no sé porque, mi alarma creció, y
+    volví a gritarle que aún era tiempo y que abandonará ese vestíbulo. Esa fue la palabra que
+    usé en el sueño, y entonces le atribuí un sentido preciso; pero ahora despierto, no sé lo que
+    significaba para mi. No escuchó usted mi súplica: se apoyó en la baranda y miró 
+    largamente el agua del pozo. Entonces le comunicaron algo. No creo haber sabido lo que
+    era, pero el pavor me arrancó del sueño, y me desperté llorando y temblando. Y ahora le
+    agradezco de corazón haber insistido. Este sueño estaba oprimiéndome, y ahora, que lo he
+    contado ala luz del día, me parece trivial.`,
+
+    `-Quien sabe –dijo el barón-. Tienen algunos detalles extraños. ¿Me comunicaron algo,
+    dijo usted? Si, es un sueño raro. Divertirá a nuestros amigos.<br>` +
+    `-No sé –dijo el conde-. Estoy casi arrepentido. Olvidémoslo.<br>` +
+    `-De acuerdo –dijo el barón.<br>` +
+    `No hablaron más de sueño. A los pocos días el conde la invitó a salir a caballo; el otro
+    aceptó. Al regresar a Roma el conde sofrenó el caballo, se tapó los ojos y dio un grito.<br>` +
+    `-¿Qué pasa? –dijo el barón.<br>` +
+    `-Nada –gritó el conde-. No es nada. Volvamos pronto a Roma.<br>` +
+    `Pero e barón había mirado a su alrededor y, a mano izquierda, vio un borroso camino
+    con una tumba y con un jardín de siemprevivas.<br>` +
+    `-Si –contestó con la voz cambiada-. Volvamos a Roma inmediatamente. Temo que
+    usted se halle indispuesto.<br>` +
+    `-Por favor –gritó el conde-. Volvamos a Roma, quiero acostarme.`,
   ]
 }];
