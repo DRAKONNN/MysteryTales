@@ -287,4 +287,133 @@ export default [{
     alegando que tenía fiebre. Al día siguiente había desaparecido el barón; alguien halló su
     caballo atado al pino. ¿Fue este un asesinato?`,
   ]
+}, {
+  id: 'elmarinero01',
+  pages: [
+    `El bergantín holandés Alkmaar regresaba de Java, cargado de especias y de otras
+    materias preciosas.<br>` +
+    `Hizo escala en Southampton, y a los marineros se les dio permiso para descender a
+    tierra.<br>` +
+    `Uno de ellos, Hendrijk Wersteeg, llevaba un mono sobre el hombro derecho, un loro
+    sobre el izquierdo y cruzado sobre el pecho, un fardo de tejidos de la India que tenía
+    intención de vender en la ciudad, del mismo modo que a los animales.
+    Se estaba en los comienzos de la primavera, y la noche caía todavía a hora temprana.
+    Hendrijk Wersteeg marchaba a buen paso por las calles algo brumosas, apenas aclaradas
+    por la luz de gas. El marinero pensaba en su próximo retorno a Amsterdam, en su madre a
+    la que no veía desde hacía tres años, en su prometida que lo esperaba en Monikendam.
+    Hacía suposiciones sobre el dinero que obtendría por sus animales y por sus telas, y
+    buscaba el comercio donde podría vender esas exóticas mercancías.`,
+    `En Above Bar Street, un señor lo abordó correctamente y le preguntó si buscaba un
+    comprador para su loro:<br>` +
+    `-Este pájaro -dijo- me vendría bien. Tengo necesidad de alguien que me hable sin que
+    yo tenga que responderle, y vivo completamente solo.<br>` +
+    `Como la mayor parte de los marineros holandeses, Hendrijk Wersteeg hablaba el
+    inglés. Fijó el precio, que le convino al desconocido.<br>` +
+    `-Sígame -dijo este último-. Vivo bastante lejos. Usted mismo introducirá al loro en una
+    jaula que tengo en casa. Usted desplegará sus telas, y tal vez las encontraré de mi gusto.
+    Completamente feliz por su suerte, Hendrijk Wersteeg caminó con el caballero a quien,
+    con la esperanza de vendérselo también, le elogió al mono, que era, decía él, de una raza
+    muy rara, una raza de esas cuyos individuos mejor resisten el clima de Inglaterra y que más
+    se encariñan con su dueño.`,
+
+    `Pero muy pronto Hendrijk Wersteeg dejó de hablar. Desperdiciaba inútilmente sus
+    palabras, porque el desconocido no le contestaba y ni siquiera parecía escucharlo.<br>` +
+    `Continuaron su derrotero en silencio, uno al lado del otro. Solos, añorando sus bosques
+    natales en los trópicos, el mono, aterrorizado por la bruma, lanzaba de vez en cuando un
+    pequeño grito semejante al vagido de un niño recién nacido, y el loro agitaba las alas.
+    Al cabo de una hora de marcha, el desconocido dijo bruscamente:<br>` +
+    `-Nos aproximamos a mi casa.<br>` +
+    `Habían salido de la ciudad. La ruta estaba bordeada por grandes parques, cercados por
+    verjas; de tiempo en tiempo brillaban, a través de los árboles, las ventanas iluminadas de
+    una casa de campo, y se oía a lo lejos, en intervalos, el grito siniestro de una sirena en el
+    mar.<br>` +
+    `El desconocido se detuvo ante una verja, sacó de su bolsillo un llavero, y abrió la
+    puerta, que volvió a cerrar una vez que Hendrijk la hubo franqueado.<br>` +
+    `El marinero estaba impresionado; distinguía apenas, en el fondo de un jardín, una
+    pequeña villa de bastante buena apariencia, pero cuyas persianas cerradas no dejaban pasar
+    luz alguna.`,
+
+    `El desconocido silencioso, la casa sin vida, todo aquello era bastante lúgubre. Pero
+    Hendrijk recordó que el desconocido vivía solo.<br>` +
+    `"¡Es un excéntrico!", pensó, y como un marinero holandés no es lo bastante rico como
+    para que se lo atraiga con el fin de desvalijarlo, se avergonzó de su momento de ansiedad.<br>` +
+    `-Si tiene fósforos ilumíneme -dijo el desconocido mientras introducía una llave en la
+    cerradura que aseguraba la puerta de la casa de campo.<br>` +
+    `El marinero obedeció, y después que se introdujeron en el interior de la casa, el
+    desconocido trajo una lámpara, que pronto iluminó un salón amueblado con gusto.<br>` +
+    `Hendrijk Wersteeg estaba completamente tranquilizado. Alimentaba ya la esperanza de
+    que su extraño compañero le comprara una buena parte de sus telas.<br>` +
+    `El desconocido, que había salido del salón, volvió con su jaula.<br>` +
+    `-Meta aquí a su loro -dijo-. No lo ubicaré en una percha hasta que esté domesticado y
+    sepa decir lo que quiero que diga.<br>` +
+    `Luego, después de haber cerrado la jaula en la que el loro se aterrorizó, le pidió al
+    marinero que tomara la lámpara y pasara a la pieza vecina donde había, dijo, una mesa
+    cómoda para extender las telas. Hendrijk Wersteeg obedeció y entró en la habitación que
+    se le había indicado. De inmediato, sintió que la puerta se cerraba detrás de él, que la llave
+    giraba. Estaba prisionero.`,
+
+    `Trastornado, posó la lámpara sobre la mesa y quiso arrojarse contra la puerta para
+    forzarla. Pero una voz lo detuvo:<br>` +
+    `-¡Un paso más y es hombre muerto, marinero!<br>` +
+    `Levantando la cabeza, Hendrijk vio que, por un tragaluz que antes no había percibido,
+    el caño de un revólver apuntaba hacia él. Aterrorizado, se detuvo.<br>` +
+    `No podía luchar, su cuchillo no podía servirle en la circunstancia; aún un revólver
+    hubiese resultado inútil. El desconocido que lo tenía a su merced se protegía detrás del
+    muro, a un lado del tragaluz desde el cual vigilaba al marinero, y por donde sólo pasaba la
+    mano que apuntaba el revólver.<br>` +
+    `-Escúcheme bien -dijo el desconocido-, y obedezca. El servicio obligado que usted me
+    prestará será recompensado. Pero usted no tiene elección. Es preciso que me obedezca sin
+    hesitar, de lo contrario lo mataré como a un perro. Abra el cajón de la mesa. .. Hay allí un
+    revólver de seis tiros, cargado con cinco balas... Tómelo.<br>` +
+    `El marinero holandés obedeció casi inconscientemente. El mono, sobre su espalda,
+    lanzaba gritos de terror y temblaba. El desconocido continuó:<br>` +
+    `-Hay una cortina en el fondo de la habitación. Córrala. `,
+
+    `Corrida la cortina, Hendrijk vio una alcoba en la cual, sobre un lecho, con los pies y
+    manos atados, amordazada, una mujer lo miraba con los ojos colmados de desesperación.
+    -Desate las ataduras de esta mujer -dijo el desconocido- y quítele su mordaza.<br>` +
+    `Ejecutada la orden, la mujer, muy joven y de una belleza admirable, se arrojó de
+    rodillas a un lado del tragaluz, exclamando:<br>` +
+    `-¡Harry, es una estratagema infame! Me has atraído a esta villa para asesinarme.
+    Pretendiste haberla alquilado con el fin de que pasemos en ella los primeros tiempos de
+    nuestra reconciliación. Creía haberte convencido. ¡Pensaba que finalmente estabas seguro
+    de que jamás fui culpable!... ¡Harry! ¡Harry! ¡Soy inocente!<br>` +
+    `-No te creo -dijo secamente el desconocido. -¡Harry, soy inocente! -repitió la joven
+    señora con voz estrangulada.<br>` +
+    `-Estas son tus últimas palabras, las registraré escrupulosamente. Me serán repetidas
+    durante toda mi vida.<br>` +
+    `Y la voz del desconocido tembló un poco, pero bien pronto volvió a ser firme.<br>` +
+    `-Porque todavía te amo -agregó-. Si te amara menos te mataría yo mismo. Pero esto me
+    resultaría imposible, porque te amo. . .<br>` +
+    `-Ahora, marinero, si antes de que yo haya contado hasta diez usted no ha alojado una
+    bala en la cabeza de esta mujer, caerá muerto a sus pies. Uno, dos, tres. . . `,
+
+    `Y antes que el desconocido tuviera tiempo de contar hasta cuatro, Hendrijk,
+    enloquecido, disparó sobre la mujer, que, siempre de rodillas, lo miraba fijamente. Ella 
+    cayó de cara contra el piso. La bala le había entrado por la frente. De inmediato, un golpe
+    de fuego surgido del tragaluz vino a golpearle al marinero la sien derecha. Este se
+    desplomó sobre la mesa, mientras que el mono, lanzando agudos gritos de horror, se
+    escondía en su blusa.`,
+
+    `El día siguiente, algunos transeúntes que escucharon gritos extraños provenientes de
+    una casa de campo de las afueras de Southampton, advirtieron a la policía, que llegó pronto
+    para forzar las puertas.<br>` +
+    `El mono, saliendo bruscamente de la blusa de su dueño, saltó sobre la cabeza de uno de
+    los policías. Aterrorizó a todos hasta tal punto, que dando unos pasos atrás lo abatieron a
+    tiros de revólver antes de osar acercarse de nuevo.<br>` +
+    `La justicia informó. Parecía claro que el marinero había matado a la señora y se había
+    suicidado a continuación. Sin embargo, las circunstancias del drama resultaban
+    misteriosas. Los dos cadáveres fueron identificados con facilidad, y todos se preguntaban
+    como lady Finngal, mujer de un par de Inglaterra, se había encontrado sola, en una aislada
+    casa de campaña, con un marinero arribado a Southampton el día anterior.<br>` +
+    `El propietario de la villa no pudo dar información alguna que sirviera para esclarecer el
+    caso. La casa de campo había sido alquilada, ocho días antes del drama, a un llamado
+    Collins, de Manchester, quien, por otra parte, permaneció indescubrible. Ese Collins usaba
+    anteojos y tenía una larga barba roja que bien podía ser falsa.<br>` +
+    `El lord llegó de Londres a toda velocidad. Adoraba a su mujer y daba pena contemplar
+    su dolor. Como todo el mundo, no comprendía nada de este asunto.<br>` +
+    `Después de estos sucesos, se retiró del mundo. Vive en su mansión de Kensington, sin
+    otra compañía que un doméstico mudo y un loro que repite sin cesar:<br>` +
+    `-¡Harry, soy inocente!`,
+  ]
 }];

@@ -1,4 +1,10 @@
 export default [{
+  id: 'elmarinero01', 
+  title: "El Marinero de Ámsterdam",
+  author: "Guillaume Apollinaire",
+  image: '/images/stories/Marinero.png',
+  classAttText: 'text-marinero',
+}, {
   id: 'elvastago01', 
   title: "El Vástago",
   author: "Silvina Ocampo",
