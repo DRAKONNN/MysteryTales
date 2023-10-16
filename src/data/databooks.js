@@ -416,4 +416,258 @@ export default [{
     otra compañía que un doméstico mudo y un loro que repite sin cesar:<br>` +
     `-¡Harry, soy inocente!`,
   ]
+}, {
+  id: 'enelbosque01',
+  pages: [
+    `DECLARACION DEL LEÑADOR INTERROGADO POR EL OFICIAL DE
+    INVESTIGACIONES DE LA KEBUSHI<br>` +
+    `-Yo confirmo, señor oficial, mi declaración. Fui yo el que descubrió el cadáver. Esta
+    mañana, como lo hago siempre, fui al otro lado de la montaña para hachar abetos. El
+    cadáver estaba en un bosque al pie de la montaña. ¿El lugar exacto? A cuatro o cinco <i>cho</i>,
+    me parece, del camino del apeadero de Yamashina. Es un paraje silvestre, donde crecen el
+    bambú y algunas coníferas raquíticas.<br>` +
+    `El muerto estaba tirado de espaldas. Vestía ropa de cazador de color celeste y llevaba
+    un <i>eboshi</i> de color gris, al estilo de la capital. Sólo se veía una herida en el cuerpo, pero era
+    una herida profunda en la parte superior del pecho. Las hojas secas de bambú caídas en su
+    alrededor estaban como teñidas de <i>suho</i>. No, ya no corría sangre de la herida, cuyos bordes
+    parecían secos y sobre la cual, bien lo recuerdo, estaba tan agarrado un gran tábano que ni
+    siquiera escuchó que me acercaba.<br>` +
+    `¿Si encontré una espada o algo ajeno? No. Absolutamente nada. Solamente encontré, al
+    pie de un abeto vecino, una cuerda, y también un peine. Eso es todo lo que encontré
+    alrededor, pero las hierbas y las hojas muertas de bambú estaban holladas en todos los
+    sentidos; la víctima, antes de ser asesinada, debió oponer fuerte resistencia. ¿Si no observé
+    un caballo? No, señor oficial. No es ese un lugar al que pueda llegar un caballo. Una
+    infranqueable espesura separa ese paraje de la carretera.`,
+
+    `DECLARACION DEL MONJE BUDISTA INTERROGADO POR EL MISMO
+    OFICIAL<br>` +
+    `-Puedo asegurarle, señor oficial, que yo había visto ayer al que encontraron muerto hoy. Sí,
+    fue hacia el mediodía, creo; a mitad de camino entre Sekiyama y Yamashina. El marchaba
+    en dirección a Sekiyama, acompañado por una mujer montada a caballo. La mujer estaba
+    velada, de manera que no pude distinguir su cara. Me fijé solamente en su kimono, que era
+    de color violeta. En cuanto al caballo, me parece que era un alazán con las crines cortadas.
+    ¿Las medidas? Tal vez cuatro <i>shaku</i> cuatro <i>sun</i> me parece; soy un religioso y no entiendo
+    mucho de ese asunto. ¿El hombre? Iba bien armado. Portaba sable, arco y flechas. Sí,
+    recuerdo más que nada esa aljaba laqueada de negro donde llevaba una veintena de flechas,
+    la recuerdo muy bien.<br>` +
+    `¿Cómo podía adivinar yo el destino que le esperaba? En verdad la vida humana es como el
+    rocío o como un relámpago... Lo lamento... no encuentro palabras para expresarlo...`,
+
+    `DECLARACION DEL SOPLON INTERROGADO POR EL MISMO OFICIAL<br>` +
+    `-¿El hombre al que agarré? Es el famoso bandolero llamado Tajomaru, sin duda. Pero
+    cuando lo apresé estaba caído sobre el puente de Awataguchi, gimiendo. Parecía haber
+    caído del caballo. ¿La hora? Hacia la primera del <i>Kon</i> ayer al caer la noche. La otra vez,
+    cuando se me escapó por poco, llevaba puesto el mismo kimono azul y el mismo sable
+    largo. Esta vez, señor oficial, como usted pudo comprobar, llevaba también arco y flechas.
+    ¿Que la víctima tenía las mismas armas? Entonces no hay dudas. Tajomaru es el asesino.
+    Porque el arco enfundado en cuero, la aljaba laqueada en negro, diecisiete flechas con
+    plumas de halcón, todo lo tenía con él. También el caballo era, como usted dijo, un alazán
+    con las crines cortadas. Ser atrapado gracias a este animal era su destino. Con sus largas
+    riendas arrastrándose, el caballo estaba mordisqueando hierbas cerca del puente de piedra,
+    en el borde de la carretera.<br>` +
+    `De todos los ladrones que rondan por los caminos de la capital, este Tajomaru es conocido
+    como el más mujeriego. En el otoño del año pasado fueron halladas muertas en la capilla
+    de Pindola del templo Toribe, una dama que venía en peregrinación y la joven sirvienta
+    que la acompañaba. Los rumores atribuyeron ese crimen a Tajomaru. Si es él el que mató a
+    este hombre, es fácil suponer qué hizo de la mujer que venía a caballo.<br>` +
+    `No quiero entrometerme donde no me corresponde, señor oficial, pero este aspecto merece
+    ser aclarado.`,
+
+    `DECLARACION DE UNA ANCIANA INTERROGADA POR EL MISMO OFICIAL<br>` +
+    `-Sí, es el cadáver de mi yerno. El no era de la capital; era funcionario del gobierno de la
+    provincia de Wakasa. Se llamaba Takehiro Kanazawa. Tenía veintiséis años. No. Era un
+    hombre de buen carácter, no podía tener enemigos.<br>` +
+    `¿Mi hija? Se llama Masago. Tiene diecinueve años. Es una muchacha valiente, tan
+    intrépida como un hombre. No conoció a otro hombre que a Takehiro. Tiene cutis moreno
+    y un lunar cerca del ángulo externo del ojo izquierdo. Su rostro es pequeño y ovalado.<br>` +
+    `Takehiro había partido ayer con mi hija hacia Wakasa. ¡Quién iba a imaginar que lo
+    esperaba ese destino! ¿Dónde está mi hija? Debo resignarme a aceptar la suerte corrida por
+    su marido, pero no puedo evitar sentirme inquieta por la de ella. Se lo suplica una pobre
+    anciana, señor oficial: investigue, se lo ruego, qué fue de mi hija, aunque tenga que
+    arrancar hierba por hierba para encontrarla. Y ese bandolero... ¿Cómo se llama? ¡Ah, sí
+    Tajomaru! ¡Lo odio! No solamente mató a mi yerno, sino que... (Los sollozos ahogaron sus
+    palabras.`,
+
+    `CONFESION DE TAJOMARU<br>` +
+    `Sí, yo maté a ese hombre. Pero no a la mujer. ¿Que dónde está ella entonces? Yo no sé
+    nada. ¿Qué quieren de mí? ¡Escuchen! Ustedes no podrían arrancarme por medio de
+    torturas, por muy atroces que fueran, lo que ignoro. Y como nada tengo que perder, nada
+    oculto.<br>` +
+    `Ayer, pasado el mediodía, encontré a la pareja. El velo agitado por un golpe de viento
+    descubrió el rostro de la mujer. Sí, sólo por un instante... Un segundo después ya no lo
+    veía. La brevedad de esta visión fue causa, tal vez, de que esa cara me pareciese tan hermosa
+    como la de Bosatsu. Repentinamente decidí apoderarme de la mujer, aunque tuviese que matar a su
+    acompañante.<br>` +
+    `¿Qué? Matar a un hombre no es cosa tan importante como la que ustedes creen. El
+    rapto de una mujer implica necesariamente la muerte de su compañero. Yo solamente mato
+    mediante el sable que llevo en mi cintura, mientras que vosotros matáis por medio del
+    poder, del dinero, y hasta de una palabra aparentemente benévola. Cuando matáis vosotros,
+    la sangre no corre, la víctima continúa viviendo. ¡Pero no la habéis matado menos! Desde
+    el punto de vista de la gravedad de la falta, me pregunto quién es más criminal. (Sonrisa
+    irónica.)`,
+
+    `Pero mucho mejor es tener a la mujer sin matar al hombre. Mi humor del momento me
+    indujo a tratar de hacerme de la mujer sin atentar, en lo posible, contra la vida del hombre.
+    Sin embargo, como no podía hacerlo en el concurrido camino a Yamashina, me arreglé
+    para llevar a la pareja a la montaña.<br>` +
+    `Resultó muy fácil. Haciéndome pasar por otro viajero, les conté que allá, en la
+    montaña, había una vieja tumba, y que en ella yo había descubierto gran cantidad de
+    espejos y de sables. Para ocultarlos de la mirada de los envidiosos los había enterrado en
+    un bosque al pie de la montaña. Yo buscaba a un comprador para ese tesoro, que ofrecía a
+    precio vil. El hombre se interesó visiblemente por la historia... Luego... ¡Es terrible la
+    avaricia! Antes de media hora, la pareja había tomado conmigo el camino de la montaña.<br>` +
+    `Cuando llegamos ante el bosque, dije a la pareja que los tesoros estaban enterrados allá,
+    y les pedí que me siguieran para verlos. Enceguecido por la codicia, el hombre no encontró
+    motivos para dudar, mientras la mujer prefirió esperar montada en el caballo. Comprendí
+    muy bien su reacción ante la cerrada espesura; era precisamente la actitud que yo esperaba.
+    De modo que, dejando sola a la mujer, penetré en el bosque seguido por el hombre.<br>` +
+    `Al comienzo, sólo había bambúes. Después de marchar durante un rato, llegamos a un
+    pequeño claro junto al cual se alzaban unos abetos... Era el lugar ideal para poner en
+    práctica mi plan. Abriéndome paso entre la maleza, lo engañé diciéndole con aire sincero
+    que los tesoros estaban bajo esos abetos. El hombre se dirigió sin vacilar un instante hacia
+    esos árboles enclenques. Los bambúes iban raleando, y llegamos al pequeño claro. Y
+    apenas llegamos, me lancé sobre él y lo derribé. Era un hombre armado y parecía robusto,
+    pero no esperaba ser atacado. En un abrir y cerrar de ojos estuvo atado al pie de un abeto.
+    ¿La cuerda? Soy ladrón, siempre llevo una atada a mi cintura, para saltar un cerco, o cosas
+    por el estilo. Para impedirle gritar, tuve que llenarle la boca de hojas secas de bambú.`,
+
+    `Cuando lo tuve bien atado, regresé en busca de la mujer, y le dije que viniera conmigo,
+    con el pretexto de que su marido había sufrido un ataque de alguna enfermedad. De más
+    está decir que me creyó. Se desembarazó de su <i>ichimegasa</i> y se internó en el bosque
+    tomada de mi mano. Pero cuando advirtió al hombre atado al pie del abeto, extrajo un
+    puñal que había escondido, no sé cuándo, entre su ropa. Nunca vi una mujer tan intrépida.
+    La menor distracción me habría costado la vida; me hubiera clavado el puñal en el vientre.
+    Aun reaccionando con presteza fue difícil para mí eludir tan furioso ataque. Pero por algo
+    soy el famoso Tajomaru: conseguí desarmarla, sin tener que usar mi arma. Y desarmada,
+    por inflexible que se haya mostrado, nada podía hacer. Obtuve lo que quería sin cometer
+    un asesinato.<br>` +
+    `Sí, sin cometer un asesinato, yo no tenía motivo alguno para matar a ese hombre. Ya
+    estaba por abandonar el bosque, dejando a la mujer bañada en lágrimas, cuando ella se
+    arrojó a mis brazos como una loca. Y la escuché decir, entrecortadamente, que ella deseaba
+    mi muerte o la de su marido, que no podía soportar la vergüenza ante dos hombres vivos,
+    que eso era peor que la muerte. Esto no era todo. Ella se uniría al que sobreviviera, agregó
+    jadeando. En aquel momento, sentí el violento deseo de matar a ese hombre. <i>(Una oscura
+    emoción produjo en Tajomaru un escalofrío.)</i><br>` +
+    `Al escuchar lo que les cuento pueden creer que soy un hombre más cruel que ustedes.
+    Pero ustedes no vieron la cara de esa mujer; no vieron, especialmente, el fuego que brillaba
+    en sus ojos cuando me lo suplicó. Cuando nuestras miradas se cruzaron, sentí el deseo de
+    que fuera mi mujer, aunque el cielo me fulminara. Y no fue, lo juro, a causa de la lascivia
+    vil y licenciosa que ustedes pueden imaginar. Si en aquel momento decisivo yo me hubiera
+    guiado sólo por el instinto, me habría alejado después de deshacerme de ella con un
+    puntapié. Y no habría manchado mi espada con la sangre de ese hombre. Pero entonces,
+    cuando miré a la mujer en la penumbra del bosque, decidí no abandonar el lugar sin haber
+    matado a su marido.`,
+
+    `Pero aunque había tomado esa decisión, yo no lo iba a matar indefenso. Desaté la
+    cuerda y lo desafié. (Ustedes habrán encontrado esa cuerda al pie del abeto, yo olvidé
+    llevármela.) Hecho una furia, el hombre desenvainó su espada y, sin decir palabra alguna,
+    se precipitó sobre mí. No hay nada que contar, ya conocen el resultado. En el vigésimo
+    tercer asalto mi espada le perforó el pecho. ¡En el vigésimo tercer asalto! Sentí admiración
+    por él, nadie me había resistido más de veinte... <i>(Sereno suspiro.)</i><br>` +
+    `Mientras el hombre se desangraba, me volví hacia la mujer, empuñando todavía el arma
+    ensangrentada.<br>` +
+    `¡Había desaparecido! ¿Para qué lado había tomado? La busqué entre los abetos. El
+    suelo cubierto de hojas secas de bambú no ofrecía rastros. Mi oído no percibió otro sonido
+    que el de los estertores del hombre que agonizaba.<br>` +
+    `Tal vez al comenzar el combate la mujer había huido a través del bosque en busca de
+    socorro. Ahora ustedes deben tener en cuenta que lo que estaba en juego era mi vida:
+    apoderándome de las armas del muerto retomé el camino hacia la carretera. ¿Qué sucedió
+    después? No vale la pena contarlo. Diré apenas que antes de entrar en la capital vendí la
+    espada. Tarde o temprano sería colgado, siempre lo supe. Condénenme a morir. <i>(Gesto de
+    arrogancia.)</i>`,
+
+    `CONFESION DE UNA MUJER QUE FUE AL TEMPLO DE KIYOMIZU<br>` +
+    `-Después de violarme, el hombre del kimono azul miró burlonamente a mi esposo, que
+    estaba atado. ¡Oh, cuánto odio debió sentir mi esposo! Pero sus contorsiones no hacían más
+    que clavar en su carne la cuerda que lo sujetaba. Instintivamente corrí, mejor dicho, quise
+    correr hacia él. Pero el bandido no me dio tiempo, y arrojándome un puntapié me hizo
+    caer. En ese instante, vi un extraño resplandor en los ojos de mi marido... un resplandor
+    verdaderamente extraño... Cada vez que pienso en esa mirada, me estremezco.
+    Imposibilitado de hablar, mi esposo expresaba por medio de sus ojos lo que sentía. Y eso
+    que destellaba en sus ojos no era cólera, ni tristeza. No era otra cosa que un frío desprecio
+    hacia mí. Más anonadada por ese sentimiento que por el golpe del bandido, grité alguna
+    cosa y caí desvanecida.<br>` +
+    `No sé cuánto tiempo transcurrió hasta que recuperé la conciencia. El bandido había
+    desaparecido, y mi marido seguía atado al pie del abeto. Incorporándome penosamente
+    sobre las hojas secas, miré a mi esposo: su expresión era la misma de antes: una mezcla de
+    desprecio y de odio glacial. ¿Vergüenza? ¿Tristeza? ¿Furia? ¿Cómo calificar a lo que sentí
+    en ese momento? Terminé de incorporarme, vacilante, me aproximé a mi marido, y le dije:<br>` +
+    `-Takehiro, después de lo que he sufrido y en esta situación horrible en que me
+    encuentro, ya no podré seguir contigo. ¡No me queda otra cosa que matarme aquí mismo!
+    ¡Pero también exijo tu muerte. Has sido testigo de mi vergüenza! ¡No puedo permitir que
+    me sobrevivas!<br>` +
+    `Se lo dije gritando. Pero él, inmóvil, seguía mirándome como antes, despectivamente.
+    Conteniendo los latidos de mi corazón, busqué la espada de mi esposo. El bandido debió
+    llevársela, porque no pude encontrarla entre la maleza. El arco y las flechas tampoco
+    estaban. Por casualidad, encontré cerca mi puñal.`,
+
+    `Lo tomé, y levantándolo sobre Takehiro, repetí:<br>` +
+    `-Te pido tu vida. Yo te seguiré.<br>` +
+    `Entonces, por fin movió los labios. Las hojas secas de bambú que le llenaban la boca le
+    impedían hacerse escuchar. Pero un movimiento de sus labios casi imperceptible me dio a
+    entender lo que deseaba. Sin dejar de despreciarme, me estaba diciendo: «Mátame».<br>` +
+    `Semiconsciente, hundí el puñal en su pecho, a través de su kimono.<br>` +
+    `Y volví a caer desvanecida. Cuando desperté, miré a mi alrededor. Mi marido, siempre
+    atado, estaba muerto desde hacía tiempo. Sobre su rostro lívido, los rayos del sol poniente,
+    atravesando los bambúes que se entremezclaban con las ramas de los abetos, acariciaban su
+    cadáver. Después... ¿qué me pasó? No tengo fuerzas para contarlo. No logré matarme.
+    Apliqué el cuchillo contra mi garganta, me arrojé a una laguna en el valle... ¡Todo lo
+    probé! Pero, puesto que sigo con vida, no tengo ningún motivo para jactarme. <i>(Triste
+    sonrisa.)</i> Tal vez hasta la infinitamente misericorde Bosatsu abandonaría a una mujer como
+    yo. Pero yo, una mujer que mató a su esposo, que fue violada por un bandido... qué podría
+    hacer. Aunque yo... yo... <i>(Estalla en sollozos.)</i>`,
+
+    `LO QUE NARRÓ EL ESPIRITU POR LABIOS DE UNA BRUJA<br>` +
+    `-El salteador, una vez logrado su fin, se sentó junto a mi mujer y trató de consolarla por
+    todos los medios. Naturalmente, a mí me resultaba imposible decir nada; estaba atado al
+    pie del abeto. Pero la miraba a ella significativamente, tratando de decirle: «No le
+    escuches, todo lo que dice es mentira». Eso es lo que yo quería hacerle comprender. Pero
+    ella, sentada lánguidamente sobre las hojas muertas de bambú, miraba con fijeza sus
+    rodillas. Daba la impresión de que prestaba oídos a lo que decía el bandido. Al menos, eso
+    es lo que me parecía a mí. El bandido, por su parte, escogía las palabras con habilidad. Me
+    sentí torturado y enceguecido por los celos. El le decía: «Ahora que tu cuerpo fue
+    mancillado tu marido no querrá saber nada de ti. ¿No quieres abandonarlo y ser mi esposa?
+    Fue a causa del amor que me inspiraste que yo actué de esta manera». Y repetía una y otra
+    vez semejantes argumentos.<br>` +
+    `Ante tal discurso, mi mujer alzó la cabeza como extasiada. Yo mismo no la había visto
+    nunca con expresión tan bella. ¿Y qué piensan ustedes que mi tan bella mujer respondió al
+    ladrón delante de su marido maniatado? Le dijo: «Llévame donde quieras». <i>(Aquí, un largo
+    silencio.)</i><br>` +
+    `Pero la traición de mi mujer fue aún mayor. ¡Si no fuera por esto, yo no sufriría tanto
+    en la negrura de esta noche! Cuando, tomada de la mano del bandolero, estaba a punto de
+    abandonar el lugar, se dirigió hacia mí con el rostro pálido, y señalándome con el dedo a
+    mí, que estaba atado al pie del árbol, dijo: «¡Mata a ese hombre! ¡Si queda vivo no podré
+    vivir contigo!». Y gritó una y otra vez como una loca: «¡Mátalo! ¡Acaba con él!». Estas
+    palabras, sonando a coro, me siguen persiguiendo en la eternidad. Acaso pudo salir alguna
+    vez de labios humanos una expresión de deseos tan horrible? ¿Escuchó o ha oído alguno
+    palabras tan malignas? Palabras que... <i>(Se interrumpe, riendo extrañamente.)</i><br>` +
+    `Al escucharlas, hasta el bandido empalideció. «¡Acaba con este hombre!». Repitiendo
+    esto, mi mujer se aferraba a su brazo. El bandido, mirándola fijamente, no le contestó. Y de
+    inmediato la arrojó de una patada sobre las hojas secas. <i>(Estalla otra vez en carcajadas.)</i> Y
+    mientras se cruzaba lentamente de brazos, el bandido me preguntó: «¿Qué quieres que
+    haga? ¿Quieres que la mate o que la perdone, ¿no tienes que hacer otra cosa que mover la
+    cabeza? ¿Quieres que la mate? ...».<br>` +
+    `Solamente por esta actitud, yo habría perdonado a ese hombre. <i>(Silencio.)</i>`,
+
+    `Mientras yo vacilaba, mi esposa gritó y se escapó, internándose en el bosque. El
+    hombre, sin perder un segundo, se lanzó tras ella, sin poder alcanzarla. Yo contemplaba
+    inmóvil esa pesadilla.<br>` +
+    `Cuando mi mujer se escapó, el bandido se apoderó de mis armas, y cortó la cuerda que
+    me sujetaba en un solo punto. Y mientras desaparecía en el bosque, pude escuchar que
+    murmuraba:<br>` +
+    `«Esta vez me toca a mí». Tras su desaparición, todo volvió a la calma. Pero no.
+    «¿Alguien llora?», me pregunté. Mientras me liberaba, presté atención: eran mis propios
+    sollozos los que había oído. <i>(La voz calla, por tercera vez, haciendo una larga pausa.)</i><br>` +
+    `Por fin, bajo el abeto, liberé completamente mi cuerpo dolorido. Delante mío relucía el
+    puñal que mi esposa había dejado caer. Asiéndolo, lo clavé de un golpe en mi pecho. Sentí
+    un borbotón acre y tibio subir por mi garganta, pero nada me dolió. A medida que mi
+    pecho se entumecía, el silencio se profundizaba ¡Ah, ese silencio! Ni siquiera cantaba un
+    pájaro en el cielo de aquel bosque. Sólo caía, a través de los bambúes y los abetos, un
+    último rayo del sol que desaparecía... Luego ya no vi bambúes ni abetos. Tendido en tierra,
+    fui envuelto por un denso silencio. En aquel momento, unos pasos furtivos se me
+    acercaron. Traté de volver la cabeza, pero ya me envolvía una difusa oscuridad. Una mano
+    invisible retiraba dulcemente el puñal de mi pecho. La sangre volvió a llenarme la boca.
+    Ese fue el fin. Me hundí en la noche eterna para no regresar...<br>` +
+    `<i>(Diciembre de 1921.)</i>`,
+  ]
 }];

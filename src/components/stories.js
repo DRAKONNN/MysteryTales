@@ -61,8 +61,7 @@ function Story(props) {
       
       <Modal show={show} dialogClassName="custom-modal-style" contentClassName="modal-height" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
         <Modal.Header className="bg-dark" closeButton>
-        
-          <Modal.Title className={`${story.classAttText}`}>{story.title}</Modal.Title>
+          <Modal.Title className={`${story.classAttTextSecondary}`}>{story.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-dark text-white">
           {book ? (
