@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-import React, { Component, useState } from 'react'
+import React, { Component, useState, useEffect } from 'react'
 
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -66,13 +66,22 @@ function App() {
   color: ${(props) => props.theme.textColor};
   `;
 
-const Navbar = () => {
+  const Navbar = () => {
     return (
       <NavbarContainer>
         {/* Contenido del Navbar, como elementos de navegación */}
       </NavbarContainer>
     );
   };
+
+  const [contentLoaded, setContentLoaded] = useState(false);
+
+  useEffect(() => {
+    // Simula la carga de contenido, podrías hacer llamadas a API o cargar recursos aquí.
+    setTimeout(() => {
+      setContentLoaded(true);
+    }, 3000); // Cambia el tiempo de espera según tus necesidades.
+  }, []);
 
   return (
     <div style={backgroundStyle}>
