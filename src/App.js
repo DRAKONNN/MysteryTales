@@ -77,10 +77,10 @@ function App() {
   const [contentLoaded, setContentLoaded] = useState(false);
 
   useEffect(() => {
-    // Simula la carga de contenido, podrías hacer llamadas a API o cargar recursos aquí.
+    // Simulate loading content, you could make API calls or load resources here.
     setTimeout(() => {
       setContentLoaded(true);
-    }, 3000); // Cambia el tiempo de espera según tus necesidades.
+    }, 6000); // Change the wait time according to your needs.
   }, []);
 
   return (
