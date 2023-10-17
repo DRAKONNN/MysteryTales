@@ -5,6 +5,7 @@ export default [{
   image: '/images/stories/Bosque.png',
   classAttText: 'text-bosque',
   classAttTextSecondary: 'text-white',
+  availability: true,
 }, {
   id: 'elmarinero01', 
   title: "El Marinero de Ámsterdam",
@@ -12,6 +13,7 @@ export default [{
   image: '/images/stories/Marinero.png',
   classAttText: 'text-marinero',
   classAttTextSecondary: 'text-white',
+  availability: true,
 }, {
   id: 'elvastago01', 
   title: "El Vástago",
@@ -19,6 +21,7 @@ export default [{
   image: '/images/stories/Vastago.png',
   classAttText: 'text-vastago',
   classAttTextSecondary: 'text-vastago',
+  availability: true,
 }, {
   id: 'elpino01', 
   title: "La Puerta y El Pino",
@@ -26,6 +29,7 @@ export default [{
   image: '/images/stories/Pino.png',
   classAttText: 'text-info',
   classAttTextSecondary: 'text-info',
+  availability: true,
 }, {
   id: 'mansionsecret01', 
   title: "Asesinato en una Mansión",
@@ -33,6 +37,7 @@ export default [{
   image: '/images/stories/LockedRoom.png',
   classAttText: 'text-warning',
   classAttTextSecondary: 'text-warning',
+  availability: false,
 }, {
   id: 'nautilus02', 
   title: "Sin escapatoria en el Nautilus",
@@ -40,6 +45,7 @@ export default [{
   image: '/images/stories/Nautilus.png',
   classAttText: 'text-white',
   classAttTextSecondary: 'text-white',
+  availability: false,
 }, {
   id: 'camplake03', 
   title: "Matanza en el Camp Lake",
@@ -47,4 +53,5 @@ export default [{
   image: '/images/stories/CampLake.png',
   classAttText: 'text-danger',
   classAttTextSecondary: 'text-danger',
+  availability: false,
 }];
