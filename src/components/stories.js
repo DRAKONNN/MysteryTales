@@ -59,6 +59,9 @@ function Story(props) {
             {index === 0 && (
               <Badge bg="warning text-black"><i class='fas fa-certificate'></i> Novedad</Badge>
             )}
+            {story.availability == false && (
+              <Badge bg="secondary text-black"><i class='fas fa-user-secret'></i> No disponible</Badge>
+            )}
           </h5>
           <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '35%' }}>{story.title}</h2>
           <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
