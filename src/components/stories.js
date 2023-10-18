@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import Modal from 'react-bootstrap/Modal';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Button from 'react-bootstrap/Button';
+import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
@@ -22,7 +23,7 @@ function findBookByStoryId(storyId) {
 }
 
 function Story(props) {
-  const {story} = props
+  const {story, index} = props
 
   const [show, setShow] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
@@ -50,17 +51,19 @@ function Story(props) {
   return (
     <div className="col-lg-3">
       <div className="card bg-dark text-white hover-zoom-interest" onClick={() => story.availability ? handleShow() : null}>
-      <div className="card-img-wrapper">
-        <img src={story.image} className="card-img zoom-effect" alt={story.title} />
+        <div className="card-img-wrapper">
+          <img src={story.image} className="card-img zoom-effect" alt={story.title} />
+        </div>
+        <div className="card-img-overlay d-flex flex-column justify-content-between">
+          <h5 className="text-end" style={{ float: 'right', clear: 'both' }}>
+            {index === 0 && (
+              <Badge bg="warning text-black"><i class='fas fa-certificate'></i> Novedad</Badge>
+            )}
+          </h5>
+          <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '35%' }}>{story.title}</h2>
+          <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
+        </div>
       </div>
-      <div className="card-img-overlay d-flex flex-column justify-content-between">
-        <h5 className="text-end" style={{ float: 'right', clear: 'both' }}>
-          <span className={`badge bg-light text-dark`}><i className="fas fa-users" aria-hidden="true"></i>Novedad</span>
-        </h5>
-        <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '25%' }}>{story.title}</h2>
-        <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
-      </div>
-    </div>
       
       <Modal show={show} dialogClassName="custom-modal-style" contentClassName="modal-height" aria-labelledby="contained-modal-title-vcenter" centered onHide={handleClose} scrollable={true}>
         <Modal.Header className="bg-dark" closeButton>
@@ -97,8 +100,8 @@ function StoryList(props) {
 
   return (
     <>
-      {stories.map(story => (
-        <Story story={story} />
+      {stories.map((story, index) => (
+        <Story story={story} index={index}/>
       ))}
     </>
   )
