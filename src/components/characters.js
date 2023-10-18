@@ -81,11 +81,13 @@ function CharacterList(props) {
 function StoryCharacters({ stories, characters }) {
   return (
     <div>
-        {stories.map(story => (
-          <>
+      {stories
+        .filter(story => characters.some(character => character.idStory === story.id))
+        .map(story => (
+          <div key={story.id}>
             <h4 className={`mb-4 ${story.classAttText}`}>{story.title}</h4>
             <CharacterList characters={characters.filter(character => character.idStory === story.id)} />
-          </>
+          </div>
         ))}
     </div>
   );

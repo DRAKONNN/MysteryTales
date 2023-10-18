@@ -54,7 +54,10 @@ function Story(props) {
         <img src={story.image} className="card-img zoom-effect" alt={story.title} />
       </div>
       <div className="card-img-overlay d-flex flex-column justify-content-between">
-        <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '40%' }}>{story.title}</h2>
+        <h5 className="text-end" style={{ float: 'right', clear: 'both' }}>
+          <span className={`badge bg-light text-dark`}><i className="fas fa-users" aria-hidden="true"></i>Novedad</span>
+        </h5>
+        <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '25%' }}>{story.title}</h2>
         <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
       </div>
     </div>
