@@ -85,7 +85,7 @@ function Puzzles(props) {
   
   return (
     <div className="resume-section-content">
-      <h4 className="mb-4">Acertijos</h4>
+      <h4 className="mb-4 glow-title">Acertijos</h4>
       <div className="row pb-5 gy-5">
         <PuzzleList puzzles={state.puzzles} />
       </div>

@@ -80,7 +80,7 @@ function App() {
     // Simulate loading content, you could make API calls or load resources here.
     setTimeout(() => {
       setContentLoaded(true);
-    }, 6000); // Change the wait time according to your needs.
+    }, 9000); // Change the wait time according to your needs.
   }, []);
 
   return (

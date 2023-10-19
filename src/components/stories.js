@@ -49,7 +49,7 @@ function Story(props) {
   };
   
   return (
-    <div className="col-lg-3">
+    <div className="col-sm-3">
       <div className="card bg-dark text-white hover-zoom-interest" onClick={() => story.availability ? handleShow() : null}>
         <div className="card-img-wrapper">
           <img src={story.image} className="card-img zoom-effect" alt={story.title} />
@@ -83,13 +83,13 @@ function Story(props) {
         </Modal.Body>
         <Modal.Footer className="bg-dark">
           <ProgressBar variant="warning" now={currentPage} max={book.pages.length - 1} style={{width: '100%', position: 'relative'}} />
-          <Button variant="secondary" onClick={handlePrevPage} disabled={currentPage === 0}>
+          <Button variant="warning text-white" onClick={handlePrevPage} disabled={currentPage === 0}>
             Anterior
           </Button>
-          <Button variant="secondary" onClick={handleNextPage} disabled={currentPage === book.pages.length - 1}>
+          <Button variant="warning text-white" onClick={handleNextPage} disabled={currentPage === book.pages.length - 1}>
             Siguiente
           </Button>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="warning text-white" onClick={handleClose}>
             Cerrar
           </Button>
         </Modal.Footer>
@@ -117,7 +117,7 @@ function Stories(props) {
   
   return (
     <div className="resume-section-content">
-      <h4 className="mb-4">Historias</h4>
+      <h4 className="mb-4 glow-title">Historias</h4>
       <div className="row pb-5 gy-5">
         <StoryList stories={state.stories} />
       </div>
