@@ -83,6 +83,14 @@ function App() {
     }, 9000); // Change the wait time according to your needs.
   }, []);
 
+  // Function to close the collapse navbar
+  const closeNavbar = () => {
+    const collapseNavbar = document.getElementById('collapseNavbar');
+    if (collapseNavbar) {
+      collapseNavbar.classList.remove('show');
+    }
+  };
+
   return (
     <div style={backgroundStyle}>
       <div style={blurLayerStyle}></div>
@@ -110,17 +118,17 @@ function App() {
             <div className="collapse navbar-collapse" id="collapseNavbar">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2 glow">
                 <li className={`nav-item ${activeTab === 'stories' ? 'active' : ''}`}>
-                  <button className="nav-link glow" onClick={() => setActiveTab('stories')}>
+                  <button className="nav-link glow" onClick={() => { setActiveTab('stories'); closeNavbar(); }}>
                     <h4><i class='fas fa-book'></i> Historias</h4>
                   </button>
                 </li>
                 <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
-                  <button className="nav-link glow" onClick={() => setActiveTab('characters')}>
+                  <button className="nav-link glow" onClick={() => { setActiveTab('characters'); closeNavbar(); }}>
                   <h4><i class='fas fa-users'></i> Personajes</h4>
                   </button>
                 </li>
                 <li className={`nav-item ${activeTab === 'puzzles' ? 'active' : ''}`}>
-                  <button className="nav-link glow" onClick={() => setActiveTab('puzzles')}>
+                  <button className="nav-link glow" onClick={() => { setActiveTab('puzzles'); closeNavbar(); }}>
                   <h4><i class='fas fa-brain'></i> Acertijos</h4>
                   </button>
                 </li>
