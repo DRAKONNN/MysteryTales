@@ -50,6 +50,13 @@ a:link {
   }
 }
 
+@media (max-width: 768px) {
+  .mobile-h4 {
+    font-size: x-large !important;
+    font-weight: 500 !important;
+  }
+}
+
 /*
 * ===== Navbar =====
 */

@@ -64,7 +64,7 @@ function Story(props) {
             )}
           </h5>
           <h2 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '1', marginTop: '35%' }}>{story.title}</h2>
-          <h4 className={`card-title title-story text-center ${story.classAttText}`} style={{ flex: '0' }}>{story.author}</h4>
+          <h4 className={`card-title title-story text-center ${story.classAttText} mobile-h4`} style={{ flex: '0' }}>{story.author}</h4>
         </div>
       </div>
       
