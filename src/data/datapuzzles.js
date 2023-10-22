@@ -2,7 +2,7 @@ export default [{
   id: 'p01', 
   title: "El acertijo de la bombilla",
   description: 'Una bombilla y tres interruptores. ¿Qué interruptor enciende la bombilla?',
-  difficulty: 'media',
+  difficulty: 'alta',
   question: 'Tienes una habitación con una puerta cerrada. En el interior de la habitación, hay una bombilla que está apagada y que no puedes ver desde fuera. También tienes tres interruptores en la pared fuera de la habitación. Estos interruptores están etiquetados como interruptor A, interruptor B y interruptor C, pero no sabes qué interruptor controla la bombilla.<br>' +
     "Solo puedes entrar en la habitación una vez.<br>" +
     "¿Cómo puedes determinar cuál de los tres interruptores controla la bombilla si solo puedes entrar en la habitación una vez?",
@@ -27,10 +27,24 @@ export default [{
   image: '/images/puzzles/Puzzle_Ascensor.png',
   classAttText: 'text-white',
 }, {
+  id: 'p04', 
+  title: "El dilema del borracho",
+  description: `Un borracho filosófico...<br>
+    ¿Qué podría salir mal?`,
+  difficulty: 'baja',
+  question: "Un borracho dijo:<br>" +
+    '"Si ayer fuese mañana, hoy sería viernes."<br>' +
+    "¿En qué día de la semana dijo esto?",
+    solution: 'Este dilema tiene dos respuestas posibles: miércoles o domingo.<br>' + 
+      '- Es domingo: "si ayer (sábado) fuera mañana, hoy (domingo) sería viernes", es decir, "si sábado fuera mañana, hoy sería viernes".<br>' + 
+      '- Es miércoles: "si ayer fuera mañana (jueves), hoy (miércoles) sería viernes", es decir, "si ayer fuera jueves, hoy sería viernes".',
+  image: '/images/puzzles/Puzzle_Drunkman.png',
+  classAttText: 'text-white',
+}, {
   id: 'p03', 
   title: "El acertijo de las dos puertas",
   description: 'Dos guardias y 2 puertas. Una te lleva a la salvación y la otra a la muerte segura.',
-  difficulty: 'alta',
+  difficulty: 'media',
   question: "Estás frente a dos puertas. Una de las puertas te lleva a la salvación, mientras que la otra puerta te conduce a la muerte segura.<br>" +
     "No tienes ninguna pista concreta sobre cuál es cuál, y hay dos guardias parados junto a las puertas.<br>" +
     "Uno de los guardias siempre dice la verdad, y el otro siempre miente. No sabes cuál de los dos es el guardia honesto y cuál es el mentiroso.<br>" +

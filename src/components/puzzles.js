@@ -26,7 +26,7 @@ function Puzzle(props) {
       <div className={`card shadow-box bg-dark`}>
         <div class="card-body text-white">
           <h5 class="card-title text-warning">{puzzle.title}</h5>
-          <p class="card-text">{puzzle.description}</p>
+          <p dangerouslySetInnerHTML={{ __html: puzzle.description }} />
           <button type="button" class="btn btn-warning text-white" onClick={handleShow}>Leer</button>
         </div>
         <div className="img-zoom">
