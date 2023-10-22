@@ -84,13 +84,13 @@ function Story(props) {
         <Modal.Footer className="bg-dark">
           <ProgressBar variant="warning" now={currentPage} max={book.pages.length - 1} style={{width: '100%', position: 'relative'}} />
           <Button variant="warning text-white" onClick={handlePrevPage} disabled={currentPage === 0}>
-            Anterior
+            <i class='fas fa-caret-square-left'></i> Anterior
           </Button>
           <Button variant="warning text-white" onClick={handleNextPage} disabled={currentPage === book.pages.length - 1}>
-            Siguiente
+            <i class='fas fa-caret-square-right'></i> Siguiente
           </Button>
           <Button variant="warning text-white" onClick={handleClose}>
-            Cerrar
+            <i class='fas fa-sign-out-alt'></i> Cerrar
           </Button>
         </Modal.Footer>
       </Modal>
