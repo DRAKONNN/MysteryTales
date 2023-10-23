@@ -35,8 +35,8 @@ export default [{
   question: "Un borracho dijo:<br>" +
     '"Si ayer fuese mañana, hoy sería viernes."<br>' +
     "¿En qué día de la semana dijo esto?",
-    solution: 'Este dilema tiene dos respuestas posibles: miércoles o domingo.<br>' + 
-      '- Es domingo: "si ayer (sábado) fuera mañana, hoy (domingo) sería viernes", es decir, "si sábado fuera mañana, hoy sería viernes".<br>' + 
+    solution: 'Este dilema tiene dos respuestas posibles: miércoles o domingo.<br>' +
+      '- Es domingo: "si ayer (sábado) fuera mañana, hoy (domingo) sería viernes", es decir, "si sábado fuera mañana, hoy sería viernes".<br>' +
       '- Es miércoles: "si ayer fuera mañana (jueves), hoy (miércoles) sería viernes", es decir, "si ayer fuera jueves, hoy sería viernes".',
   image: '/images/puzzles/Puzzle_Drunkman.png',
   classAttText: 'text-white',

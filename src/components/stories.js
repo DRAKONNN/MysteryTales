@@ -49,7 +49,7 @@ function Story(props) {
   };
   
   return (
-    <div className="col-sm-3">
+    <div className="col-lg-3">
       <div className="card bg-dark text-white hover-zoom-interest" onClick={() => story.availability ? handleShow() : null}>
         <div className="card-img-wrapper">
           <img src={story.image} className="card-img zoom-effect" alt={story.title} />
