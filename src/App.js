@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import React, { Component, useState, useEffect } from 'react'
+import Tooltip from '@mui/material/Tooltip';
 
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -123,9 +124,13 @@ function App() {
                   </button>
                 </li>
                 <li className={`nav-item ${activeTab === 'characters' ? 'active' : ''}`}>
-                  <button className="nav-link glow" onClick={() => { setActiveTab('characters'); closeNavbar(); }}>
-                  <h4><i class='fas fa-users'></i> Personajes</h4>
-                  </button>
+                  <Tooltip title="Deshabilitado" placement="top-start" arrow>
+                    <span>
+                      <button className="nav-link glow" onClick={() => { setActiveTab('characters'); closeNavbar(); }} disabled>
+                        <h4><i class='fas fa-users'></i> Personajes</h4>
+                      </button>
+                    </span>
+                  </Tooltip>
                 </li>
                 <li className={`nav-item ${activeTab === 'puzzles' ? 'active' : ''}`}>
                   <button className="nav-link glow" onClick={() => { setActiveTab('puzzles'); closeNavbar(); }}>
