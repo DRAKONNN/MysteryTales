@@ -27,10 +27,13 @@ function Puzzle(props) {
         <div class="card-body text-white">
           <h5 class="card-title text-warning">{puzzle.title}</h5>
           <p dangerouslySetInnerHTML={{ __html: puzzle.description }} />
-          <button type="button" class="btn btn-warning text-white" onClick={handleShow}>Leer</button>
+          <div class="d-flex justify-content-between align-items-center">
+            <button type="button" class="btn btn-warning text-white" onClick={handleShow}>Leer</button>
+            <h4><span class="badge rounded-pill bg-warning text-dark"><i class='fas fa-user-secret'></i> Dificultad: {puzzle.difficulty}</span></h4>
+          </div>
         </div>
         <div className="img-zoom">
-          <img src={puzzle.image} className="card-img-top" alt={puzzle.title}/>
+          <img src={puzzle.image} className="card-img-top" alt={puzzle.title} />
         </div>
       </div>
 

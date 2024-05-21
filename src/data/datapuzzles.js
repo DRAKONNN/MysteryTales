@@ -19,7 +19,7 @@ export default [{
   id: 'p02', 
   title: "El acertijo del ascensor",
   description: 'Un hombre misteriosamente se baja del ascensor en diferentes pisos.',
-  difficulty: 'baja',
+  difficulty: 'media',
   question: "Un hombre vive en el piso 15 de un edificio. Todos los días, cuando va al trabajo, toma el ascensor desde su piso hasta la planta baja.<br>" +
     "Cuando regresa del trabajo, generalmente toma el ascensor hasta el piso 7 y luego sube los 8 pisos restantes por las escaleras. Sin embargo, cuando llueve, toma el ascensor directamente hasta su piso en el piso 15. ¿Por qué hace esto?",
   solution: "El hombre es de estatura baja y no alcanza a presionar el botón del piso 15 del ascensor, excepto cuando lleva un paraguas.<br>" +
@@ -54,5 +54,15 @@ export default [{
       "Esto funciona porque si le preguntas al guardia honesto, él te dirá la respuesta que daría el guardia mentiroso, y si le preguntas al guardia mentiroso, él te dará la respuesta que daría el guardia honesto, lo que te lleva a la puerta incorrecta en ambos casos.<br>" + 
       "Por lo tanto, eliges la puerta opuesta para encontrar la salvación.",
   image: '/images/puzzles/Puzzle_2Guards.png',
+  classAttText: 'text-white',
+}, {
+  id: 'p04', 
+  title: "El acertijo del vaquero",
+  description: 'Un vaquero llega a un pueblo en Viernes, se queda 3 días y se va en Viernes.',
+  difficulty: 'baja',
+  question: "Un vaquero llega a un pueblo en Viernes, se queda 3 días y se va en Viernes.<br>" +
+    "¿Cómo es esto posible?",
+    solution: "Viernes es el nombre del caballo.",
+  image: '/images/puzzles/Puzzle_Cowboy.png',
   classAttText: 'text-white',
 }];
